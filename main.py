@@ -46,3 +46,5 @@ videos_items = channel_selector('Travellight', 5)
 parsed_data = parser(videos_items)
 df = pd.DataFrame(parsed_data)
 df.to_csv("videos")
+driver.quit()
+
